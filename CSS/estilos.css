@@ -1,0 +1,83 @@
+.form-control:focus {
+  -webkit-box-shadow: 1px 1px 15px #767777 !important;
+          box-shadow: 1px 1px 15px #767777 !important;
+  border-color: #adadad !important; }
+
+.extremo {
+  float: right;
+  width: 35%;
+  margin-top: 20px;
+  height: 10px;
+  margin-bottom: 10px;
+  -webkit-box-shadow: 0px 0px 2px black;
+          box-shadow: 0px 0px 2px black;
+  border: 1px solid rgba(0, 0, 0, 0.301); }
+
+#left {
+  background: -webkit-gradient(linear, left top, right top, from(#adadad), to(#949494));
+  background: linear-gradient(left, #adadad, #949494); }
+
+#right {
+  background: -webkit-gradient(linear, right top, left top, from(#adadad), to(#949494));
+  background: linear-gradient(right, #adadad, #949494); }
+
+#fondo {
+  background: -webkit-gradient(linear, left top, left bottom, from(#d8b476), to(#b58533));
+  background: linear-gradient(#d8b476, #b58533);
+  width: 30%;
+  float: right;
+  height: 50px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 5px black;
+          box-shadow: 0px 0px 5px black;
+  border: 1px solid rgba(0, 0, 0, 0.301); }
+
+.bandas {
+  height: 50px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#1f1a17), to(#000000));
+  background: linear-gradient(#1f1a17, #000000);
+  width: 7%;
+  float: left;
+  margin-left: 15%; }
+
+#b1, #b2, #b3 {
+  background: #1f1a17;
+  color: white; }
+
+body {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQG4t2Kq2BR56hL1QZTmqYwM5R7Q-FbslHB7g&usqp=CAU"); }
+
+.bg-primary {
+  background-color: #049edc !important; }
+
+.btn-primary {
+  background-color: #049edc; }
+
+.btn-primary:hover {
+  background-color: #048cc3 !important; }
+
+.btn-primary:active {
+  background-color: #037aaa !important; }
+
+a {
+  color: #3533cf; }
+
+.bg-secondary {
+  background: -webkit-gradient(linear, left top, left bottom, from(#049edc), to(#e1f6fe)) !important;
+  background: linear-gradient(#049edc, #e1f6fe) !important; }
+
+.btn-warning {
+  background-color: #d1a41c !important; }
+
+.btn-warning:hover {
+  background-color: #a48116 !important; }
+
+.btn-warning:active {
+  background-color: #8e6f13 !important; }
+
+fieldset {
+  border-radius: 15px;
+  -webkit-box-shadow: 1px 1px 40px black;
+          box-shadow: 1px 1px 40px black; }
+
+/*# sourceMappingURL=estilos.css.map */
